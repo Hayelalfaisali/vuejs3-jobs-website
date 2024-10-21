@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 # vuejs3-jobs-website
-=======
-# vue-crash-2024
-
+## Live Demo
+Check out the live version of this project [here](https://jobswebsite-vuejs3.netlify.app/).
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
