@@ -1,33 +1,73 @@
-<<<<<<< HEAD
-# vuejs3-jobs-website
-=======
-# vue-crash-2024
+# Vue Jobs Website
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern job board application built with Vue.js 3 and Vite, featuring a clean and responsive user interface. This platform allows users to browse, search, and manage job listings with ease.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Modern and responsive UI design
+- Job listing browsing and filtering
+- Detailed job view pages
+- User-friendly navigation
+- Real-time search functionality
+- Mobile-responsive layout
+- Toast notifications for user feedback
 
-## Customize configuration
+## Technologies Used
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Vue.js 3 (Composition API)
+- Vite
+- Tailwind CSS
+- Vue Router
+- Vue Toastification
+- Prime Icons
 
-## Project Setup
+## Prerequisites
 
-```sh
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone [repository-url]
+cd vuejs3-jobs-website
+```
+
+2. Install dependencies:
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Development
 
-```sh
+Run the development server:
+```bash
 npm run dev
 ```
+The application will be available at `http://localhost:5173`
 
-### Compile and Minify for Production
+## Building for Production
 
-```sh
+Build the application for production:
+```bash
 npm run build
 ```
->>>>>>> 0a2ee26 (Initial commit)
+
+## Project Structure
+
+```
+vuejs3-jobs-website/
+├── src/                # Source files
+│   ├── assets/        # Static assets
+│   ├── components/    # Vue components
+│   ├── views/         # Page components
+│   ├── router/        # Vue router configuration
+│   └── App.vue        # Root component
+├── public/            # Public static files
+└── index.html         # Entry HTML file
+```
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
